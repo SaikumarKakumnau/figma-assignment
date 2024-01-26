@@ -10,17 +10,16 @@
 }
 
 .banner-container {
-  width: 80%;
+  width: 90%;
   height: 511px;
+  background-image: url("https://res.cloudinary.com/dyss1em2x/image/upload/v1706269406/backgroundimage_yvgrwn.png");
+  background-size: cover;
   top: 122px;
   left: 40px;
   border-radius: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
   align-self: center;
 }
 
@@ -39,18 +38,18 @@
 
 h1 {
   width: 40%;
-  color: black;
+  color: #E5E5E5;
   font-family: "bree serif";
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 600;
   text-align: center;
 }
 
 p {
-  width: 45%;
-  color: gray;
+  width: 50%;
+  color: grey;
   font-family: "Roboto";
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -62,13 +61,15 @@ p {
   border: none;
   border-style: none;
   border-radius: 20px;
+  font-size: 15px;
 }
 
 .icon {
-  width: 50px;
-  height: 50px;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
 }
 
 .span {
-  color: #0A2472;
+  color: #007ff0;
 }

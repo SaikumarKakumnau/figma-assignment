@@ -2,6 +2,7 @@ import {Component} from 'react'
 import LogoContainer from './components/LogoContainer';
 import DiscoverContainer from './components/DiscoverContainer';
 // import {FontAwesomeIcon} from '@fortawesome/free-regular-svg-icons'
+import { BsGlobe2 } from "react-icons/bs";
 
 import './App.css';
 
@@ -34,7 +35,9 @@ class App extends Component {
             <p>We provide the right course for you. You can learn at your own pace, from 
               anywhere in the world, and get access to high-quailty content
             </p>
-            <button type='buttton' className='button-explore'>Explore courses</button>
+            <button type='buttton' className='button-explore'>
+              <BsGlobe2 className='icon' />Explore courses
+            </button>
           </div>
         </div>
         <LogoContainer />
